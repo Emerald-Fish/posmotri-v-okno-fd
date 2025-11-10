@@ -137,11 +137,16 @@ ol {
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
-  color: #545050;
+  color: #fff;
 }
 
 .content__accent {
-  color: #fff;
+  color: #545050;
+}
+
+.content__details {
+  width: 399px;
+  height: 100%;
 }
 
 .content__video-card-description-container {
