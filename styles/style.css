@@ -118,7 +118,6 @@ ol {
 }
 
 .search-form__fieldset-title {
-  height: 22px;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -271,7 +270,7 @@ ol {
   opacity: 1;
 }
 
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text{
   text-decoration: underline;
 }
 
