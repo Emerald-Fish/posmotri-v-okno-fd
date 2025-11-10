@@ -60,7 +60,7 @@ ol {
   gap: 30px;
   justify-content: center;
   align-items: end;
-  min-height: 534px;
+  /*min-height: 534px;*/
   width: 1140px
 }
 
@@ -83,7 +83,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   height: 298px;
-  overflow: hidden scroll;
+  overflow: auto scroll;
 }
 
 .content__list {
@@ -119,7 +119,7 @@ ol {
 
 .search-form__fieldset-title {
   height: 22px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -132,8 +132,7 @@ ol {
 .title {
   margin-bottom: 24px ;
   width: 260px;
-  height: 210px;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
@@ -152,7 +151,6 @@ ol {
 }
 
 .content__video-card-title {
-  height: 30px;
   font-family: 'Oswald',sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -167,8 +165,7 @@ ol {
 }
 
 .content__video-card-description {
-  height: 17px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -210,10 +207,15 @@ ol {
 }
 
 .search-form__textfield {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
   height: 27px;
   width: 225px;
   border-style: none;
-  border-top: 1px solid #FFF;
+  border-top: 1px solid currentColor;
   border-bottom: 1px solid #FFF;
   color: #fff;
   background-color: #1b1919;
@@ -223,7 +225,7 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -291,7 +293,7 @@ ol {
 
 .button {
   border: 1px solid #FFFFFF;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
